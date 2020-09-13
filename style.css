@@ -1,0 +1,52 @@
+.box {
+    height: 200px;
+    width: 200px;
+    background-color: "";
+    border: 1px solid black;
+    margin: 1px;
+}
+
+.remove {
+    display: none;
+}
+
+.container {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    display: grid;
+    max-width: 1200px;
+    margin: 0 auto;
+    grid-column-gap: 10px;
+}
+
+.content {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    display: grid;
+    max-width: 1200px;
+    margin: 0 auto;
+    grid-column-gap: 10px;
+}
+
+#input {
+    grid-column: 3/4;
+}
+
+.content3 {
+    display: flex;
+    grid-column: 1/2;
+    flex-direction: column;
+}
+
+.content3 {}
+
+option {
+    color: black;
+    padding: 6px 8px;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+
+}
+
+.option:hover {
+    background-color: lightgrey;
+}
